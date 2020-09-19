@@ -1,2 +1,8 @@
 *.class
 *.log
+
+# Project Settings
+target
+
+# Intellij Settings
+.idea
