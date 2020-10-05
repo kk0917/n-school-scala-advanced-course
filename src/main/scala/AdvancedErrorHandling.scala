@@ -19,4 +19,16 @@ object LoginService {
   }
 }
 
+/**
+ * scala>
+ * LoginService.login(name = "taro", password = "Password1") match {
+ *   case Right(user) => println(s"id: ${user.id}")
+ *   case Left(InvalidPassword) => println(s"Invalid Password!")
+ *   case Left(UserNotFound) => println(s"User Not Found!")
+ *   case Left(PasswordLocked) => println(s"Password Locked!")
+ * }
+ *
+ * id: 1
+ */
+
 // TODO: 【実習】Either への map や flatMap の適用
