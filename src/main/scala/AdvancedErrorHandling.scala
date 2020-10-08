@@ -93,4 +93,4 @@ object MainRefactored {
  * Try は Success と Failure より構成され、処理内で例外が投げられると Failure となる
  */
 
-def createString(size: Int): scala.util.Try[String] = ???
+//def createString(size: Int): scala.util.Try[String] = ???
