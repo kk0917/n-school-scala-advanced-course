@@ -7,7 +7,7 @@ object TypeAlias {
    */
 }
 
-class Cell[A](val content: A) {
+class CellTypeAlias[A](val content: A) {
   type ContentType = A
   // Detailed implement...
 }
